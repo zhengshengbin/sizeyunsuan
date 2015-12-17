@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.de.sizhe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.de.sizhe.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.de.sizhe.TixingActivity"
+            android:label="@string/title_activity_tixing" >
+        </activity>
+        <activity
+            android:name="com.de.sizhe.TGaojiActivity"
+            android:label="@string/title_activity_tgaoji" >
+        </activity>
+        <activity
+            android:name="com.de.sizhe.TDeFenActivity"
+            android:label="@string/title_activity_tde_fen" >
+        </activity>
+        <activity
+            android:name="com.de.sizhe.ChujiActivity"
+            android:label="@string/title_activity_chuji" >
+        </activity>
+        <activity
+            android:name="com.de.sizhe.ZhongjiMainActivity"
+            android:label="@string/title_activity_zhongji_main" >
+        </activity>
+    </application>
+
+</manifest>

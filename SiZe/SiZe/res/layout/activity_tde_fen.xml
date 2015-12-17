@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@drawable/tupian2"
+    tools:context=".TDeFenActivity" >
+
+    <TableLayout
+        android:id="@+id/DTab1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:baselineAligned="false" >
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/showtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DTab1"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/chongxin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:text="@string/chongxin" />
+
+    <Button
+        android:id="@+id/tuichu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="46dp"
+        android:text="@string/tuichu" 
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/chongxin"
+        android:layout_alignLeft="@+id/DTab1"
+        android:layout_marginBottom="39dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FF0033"
+        android:text="当提交答案错误时，提交答案显示红色！"
+       
+/>
+
+</RelativeLayout>
